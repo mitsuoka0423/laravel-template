@@ -4,4 +4,3 @@
 
 tasks:
   - init: composer install
-    command: php artisan serve
