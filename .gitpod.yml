@@ -3,4 +3,4 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: composer install && php artisan key:generate && cp .env.example .env
+  - init: composer install && cp .env.example .env && php artisan key:generate
